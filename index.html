@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            text-shadow: 7px 3px 3px rgb(94, 170, 236);
+        }
+        .container{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         
+        }
+        .div1{
+            margin-top: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 19% 81% 21% 79% / 47% 75% 25% 53%;
+            transition: transform 2s;
+            box-shadow: 2px 7px 10px rgb(234, 237, 240);
+        }
+        .div1:hover{
+            transform: rotate(360deg);
+        }
+        @media only screen and (max-width : 500px) {
+          
+            .container{
+               display: grid;
+               
+                margin: auto;
+                
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Your Assignment is Too Easy</h1>
+    <hr>
+    <div class="container">
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+    </div>
+</body>
+
+</html>
